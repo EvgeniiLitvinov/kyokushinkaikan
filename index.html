@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karate Section</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><a href="/">KARATE</a></div>
+    <nav class="nav-center">
+      <a href="#about" class="open-modal">О нас</a>
+      <a href="#schedule" class="open-modal">Расписание</a>
+      <a href="#reviews" class="open-modal">Отзывы</a>
+      <a href="#contacts" class="open-modal">Контакты</a>
+    </nav>
+    <div class="nav-right">
+      <button class="btn-red open-modal">Записаться</button>
+    </div>
+  </header>
+
+  <div class="hero">
+    <h1>KARATE<br />SECTION</h1>
+    <p>Тренировки по карате для детей, подростков и взрослых. Дисциплина, сила, уважение — с нуля до чёрного пояса.</p>
+    <button class="btn-dark open-modal">Начать!</button>
+  </div>
+
+  <main>
+  <section id="about" class="section">
+    <h2>О нас</h2>
+    <p>Наша секция карате — это сила духа, дисциплина и развитие. Мы обучаем с нуля и до уровня мастера!</p>
+  </section>
+
+  <section id="schedule" class="section alt">
+    <h2>Расписание</h2>
+    <p>Тренировки проходят 5 дней в неделю в вечернее время. Подходит для всех возрастов и уровней.</p>
+  </section>
+
+  <section id="reviews" class="section alt">
+  <h2>Отзывы</h2>
+  <p>“Лучшее место для изучения карате!”<br>“Тренер — огонь, дисциплина на высоте.”</p>
+</section>
+
+<footer id="contacts" class="footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <div class="phone">
+        <a href="tel:+77771234567" class="phone-link">
+            <img src="img/phone.svg" alt="Телефон" class="icon" />
+            +7 777 123 4567
+        </a>
+      </div>
+
+
+      <div class="address">
+        г. Алматы, ул. Розыбакиева 227/1
+      </div>
+    </div>
+
+    <div class="footer-socials">
+      <a href="https://wa.me/77771234567" target="_blank" aria-label="WhatsApp">
+        <img src="img/whatsapp.svg" alt="WhatsApp" />
+      </a>
+      <a href="https://t.me/your_username" target="_blank" aria-label="Telegram">
+        <img src="img/telegram.svg" alt="Telegram" />
+      </a>
+      <a href="https://instagram.com/your_username" target="_blank" aria-label="Instagram">
+        <img src="img/instagram.svg" alt="Instagram" />
+      </a>
+    </div>
+  </div>
+
+  <hr />
+  <p class="copyright">© 2025 — IKO Kyokushinkaikan Almaty</p>
+
+    <p class="dev-credit">
+        Дизайн и разработка: <a href="https://www.behance.net/litvinov" target="_blank">behance.net/litvinov</a>
+    </p>
+</footer>
+
+
+</main>
+
+
+
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>Обратная связь</h2>
+      <form>
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="tel" placeholder="Номер телефона" required>
+        <button type="submit" class="btn-dark">Отправить</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
